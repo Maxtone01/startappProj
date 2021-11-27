@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:StartappProject"
+             x:Class="StartappProject.MainPage">
+    <ScrollView>
+        <StackLayout>
+            <Frame BackgroundColor="#2196f3" Padding="24" CornerRadius="0">
+                <Label Text="Get GPS location" HorizontalTextAlignment="center" TextColor="white" FontSize="36"/>
+            </Frame>
+            <Button Text="Получать локацию" Clicked="Button_Clicked"/>
+            <Button Text="Отмена получения" Clicked="Button1_Clicked"/>
+            <Label x:Name="resultLocation"/>
+        </StackLayout>
+    </ScrollView>
+
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="button1" Text="Default" FontSize="20" TextColor="{local:ARGBColor Alpha=222, Red=67, Green=78, Blue=1}" Clicked="Button_Click" Grid.Column="0" Grid.Row="0" BackgroundColor="Green"/>
+        <Label Text="{Binding Clicks}" FontFamily="Arial" FontSize="24" Grid.Column="0" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+    </Grid>-->
+
+    <!--<stacklayout>
+        <frame backgroundcolor="#2196f3" padding="24" cornerradius="0">
+            <label text="welcome to xamarin.forms!" horizontaltextalignment="center" textcolor="white" fontsize="36"/>
+        </frame>
+        <label text="start developing now" fontsize="title" padding="30,10,30,10"/>
+        <label text="make changes to your xaml file and save to see your ui update in the running app with xaml hot reload. give it a try!" fontsize="16" padding="30,0,30,0"/>
+        <label fontsize="16" padding="30,24,30,0">
+            <label.formattedtext>
+                <formattedstring>
+                    <formattedstring.spans>
+                        <span text="learn more at "/>
+                        <span text="https://aka.ms/xamarin-quickstart" fontattributes="bold"/>
+                    </formattedstring.spans>
+                </formattedstring>
+            </label.formattedtext>
+        </label>
+    </stacklayout>-->
+
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:startappproject="clr-namespace:StartappProject" x:DataType="startappproject:ProfilePage"
+             x:Class="StartappProject.ProfilePage"
+             Title="ProfilePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="Vladik.jpg" WidthRequest="200" HeightRequest="200">
+                    <Image.Clip>
+                        <EllipseGeometry RadiusX="70" RadiusY="70" Center="180,100"/>
+                    </Image.Clip>
+                </Image>
+                <Label Text="{Binding Path=Rate,
+                    StringFormat='Твой рейтинг: {0}'}" HorizontalOptions="Center"/>
+                <Editor Text="{Binding MyStringProperty}" FontSize="24" HeightRequest="400" TextChanged="EditorTextChanged"/>
+                <!--<Image Source="edit.png" WidthRequest="20" HeightRequest="20" Margin="-30"/>-->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

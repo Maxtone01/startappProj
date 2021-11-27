@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StartappProject.MyFlyoutPageDetail"
+             Title="Detail">
+  <StackLayout Padding="10" BackgroundColor="White">
+        <Grid Padding="10">
+            <Frame BorderColor="Black"
+                   CornerRadius="20">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="vladik.jpg" WidthRequest="66"/>
+                    <StackLayout VerticalOptions="Center">
+                        <Label
+                            TextColor="Black"
+                            Text="Aboba"
+                            VerticalOptions="Center"/>
+                        <Label
+                            TextColor="Black"
+                            Text="abobA"
+                            VerticalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </Grid>
+        <Grid Padding="10">
+            <Frame BorderColor="Black"
+                   CornerRadius="20">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="vladik.jpg" WidthRequest="66"/>
+                    <StackLayout VerticalOptions="Center">
+                        <Label
+                            TextColor="Black"
+                            Text="Aboba"
+                            VerticalOptions="Center"/>
+                        <Label
+                            TextColor="Black"
+                            Text="abobA"
+                            VerticalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </Grid>
+        <Grid Padding="10">
+            <Frame BorderColor="Black"
+                   CornerRadius="20">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="vladik.jpg" WidthRequest="66"/>
+                    <StackLayout VerticalOptions="Center">
+                        <Label
+                            TextColor="Black"
+                            Text="Aboba"
+                            VerticalOptions="Center"/>
+                        <Label
+                            TextColor="Black"
+                            Text="abobA"
+                            VerticalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </Grid>
+        <!--<Image Source="vladik.jpg" Grid.Column="0" Grid.Row="0" HeightRequest="20"/>-->
+        <!--<Image Source="vladik.jpg" Grid.Row="0" WidthRequest="60" HeightRequest="60"/>
+            <Label Text="Some text" Grid.Column="0"/>-->
+                <!--<Frame BackgroundColor="#2196f3" Padding="24" CornerRadius="0">
+                    <Label Text="Get GPS location" HorizontalTextAlignment="center" TextColor="white" FontSize="36"/>
+                </Frame>-->
+                <!--<Button Text="Получать локацию" Clicked="Button_Clicked"/>
+                <Button Text="Отмена получения" Clicked="Button1_Clicked"/>
+                <Label x:Name="resultLocation"/>-->
+    </StackLayout>
+</ContentPage>
